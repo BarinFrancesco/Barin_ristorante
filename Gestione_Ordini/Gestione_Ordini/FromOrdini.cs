@@ -19,6 +19,19 @@ namespace Gestione_Ordini
 
         private void FromOrdini_Load(object sender, EventArgs e)
         {
+            /*
+              // Pulisce prima la combo se necessario
+                cmb_SelezionePiatti.Items.Clear();
+
+                // Dividi per newline o virgola
+                var piatti = input
+                    .Split(new[] { '\n', '\r', ',' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(p => p.Trim()) // Rimuove spazi extra
+                    .Where(p => !string.IsNullOrEmpty(p)) // Evita voci vuote
+                    .ToArray();
+
+                cmb_SelezionePiatti.Items.AddRange(piatti); 
+              */
             cmb_SelezionePiatti.Items.AddRange(new string[]
             {
                 "tagliatelle al ragù",
