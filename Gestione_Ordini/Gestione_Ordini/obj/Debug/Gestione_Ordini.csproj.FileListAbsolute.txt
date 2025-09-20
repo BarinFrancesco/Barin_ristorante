@@ -10,3 +10,15 @@ C:\Users\12999355\Desktop\Barin Francesco\Barin_ristorante\Gestione_Ordini\Gesti
 C:\Users\12999355\Desktop\Barin Francesco\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.exe
 C:\Users\12999355\Desktop\Barin Francesco\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.pdb
 C:\Users\12999355\Desktop\Barin Francesco\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.FormOrdini.resources
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.AssemblyReference.cache
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.SuggestedBindingRedirects.cache
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.Ristorante_da_Barin.resources
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.FormOrdini.resources
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.Properties.Resources.resources
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.GenerateResource.cache
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.CoreCompileInputs.cache
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.exe
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.pdb
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.exe.config
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.exe
+C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.pdb

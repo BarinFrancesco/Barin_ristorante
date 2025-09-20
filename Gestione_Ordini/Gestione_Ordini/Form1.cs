@@ -30,7 +30,7 @@ namespace Gestione_Ordini
 
         private void btn_Ordina_Click(object sender, EventArgs e)
         {
-            using(FormOrdini form = new FormOrdini())
+            using(FormOrdini form = new FormOrdini(menù.VisualizzaMenù()))
             {
                 if(form.ShowDialog() == DialogResult.OK)
                 {

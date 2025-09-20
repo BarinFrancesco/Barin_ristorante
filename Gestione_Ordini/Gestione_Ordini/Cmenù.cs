@@ -21,7 +21,7 @@ namespace Gestione_Ordini
                 {
                     string piatto = lettore.ReadLine();
                     string[] dati = piatto.Split(';');
-                    Lista_piatti.Add(Basepiatto = new CPiatto(dati[0], int.Parse(dati[1]) ) );
+                    Lista_piatti.Add(Basepiatto = new CPiatto(dati[0], float.Parse(dati[1]) ) );
                 }
             }
         

@@ -12,38 +12,43 @@ namespace Gestione_Ordini
 {
     public partial class FormOrdini : Form
     {
-        public FormOrdini()
+        public FormOrdini( string menù)
         {
             InitializeComponent();
+            lista_piatti = menù;
         }
+        string lista_piatti;
+
+        public string Coustomer_name { get; private set; }
+
+        public int Coustomer_dish { get; private set; }
+
+        public int Coustomer_quantity { get; private set; }
 
         private void FromOrdini_Load(object sender, EventArgs e)
         {
-            /*
               // Pulisce prima la combo se necessario
                 cmb_SelezionePiatti.Items.Clear();
 
-                // Dividi per newline o virgola
-                var piatti = input
-                    .Split(new[] { '\n', '\r', ',' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(p => p.Trim()) // Rimuove spazi extra
-                    .Where(p => !string.IsNullOrEmpty(p)) // Evita voci vuote
-                    .ToArray();
+                string[] piatti = lista_piatti.Split('\n');
 
                 cmb_SelezionePiatti.Items.AddRange(piatti); 
-              */
-            cmb_SelezionePiatti.Items.AddRange(new string[]
+        }
+
+        private void txt_Customer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
             {
-                "tagliatelle al ragù",
-                "spaghetti di mare",
-                "bucatini all'amatriciana",
-                "tagliata di manzo",
-                "fritto misto",
-                "pollo arrosto",
-                "panna cotta",
-                "torta della nonna",
-                "tiramisù"
-            });
+                e.Handled = true;
+            }
+        }
+
+        private void btn_Order_Click(object sender, EventArgs e)
+        {
+            Coustomer_name = txt_Customer.Text.ToLower();
+            Coustomer_dish = cmb_SelezionePiatti.SelectedIndex;
+            Coustomer_quantity = (int)sel_Quantity.Value;
+            DialogResult = DialogResult.OK;
         }
     }
 }
