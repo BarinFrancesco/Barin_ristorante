@@ -74,9 +74,10 @@ namespace Gestione_Ordini
                     {
                         Lista_ordini_oggi[index_person].AggiunaPiatto(menù.Lista_piatti[dish]);
                     }
-
+                   
                 }
             }
+            Visualizza_ordini(true); //lancio la funzione prima e dop operché così lavora solo sull'ordine di oggi e fa il "refresh" della schermata
         }
 
         //funzione che va a far vedere il totale di ogni conto
@@ -92,7 +93,7 @@ namespace Gestione_Ordini
                 lista = Lista_ordini_vecchi;
             }
 
-            if (lst_Orders.Items.Count == 0 || lst_Orders.SelectedIndex == -1)
+            if (lst_Orders.SelectedIndex == -1)
             {
                 MessageBox.Show($"Selezionare un ordine per visualittarne il totale");
             }
@@ -108,6 +109,10 @@ namespace Gestione_Ordini
         //salva gli ordini quando si chiude il form
         private void Salvataggio_ordini()
         {
+            if (!File.Exists(@"..\..\..\Files\Ordini.csv"))
+            {
+                throw new FileNotFoundException("Non è stato trovato il file sorgente");
+            }
             using (StreamWriter scrittore = new StreamWriter(@"..\..\..\Files\ordini.csv", append: true))
             {
                 foreach (var ordine in Lista_ordini_oggi)
@@ -159,18 +164,20 @@ namespace Gestione_Ordini
             List<Cordine> lista;
             if (status)
             {
+                Stato_lista = true;
                 lista = Lista_ordini_oggi;
                 lbl_typeoforder.Text = "Ordini della giornata";
             }
             else
             {
+                Stato_lista = false;
                 lista = Lista_ordini_vecchi;
                 lbl_typeoforder.Text = "Registro ordini passati";
             }
 
             foreach (var ordine in lista)
             {
-            lst_Orders.Items.Add($"Nome : {ordine.Cliente}, totale {ordine.Scontrino().costo}€ ");
+            lst_Orders.Items.Add($"Nome : {ordine.Cliente.PadRight(10)} totale {ordine.Scontrino().costo}€ ");
             }
             
         }
@@ -178,15 +185,11 @@ namespace Gestione_Ordini
         private void btn_Oldorders_Click(object sender, EventArgs e)
         {
             Visualizza_ordini(false);
-            Stato_lista = false;
         }
 
         private void btn_newOrder_Click(object sender, EventArgs e)
         {
-
             Visualizza_ordini(true);
-            Stato_lista = true;
-
         }
     }
 }

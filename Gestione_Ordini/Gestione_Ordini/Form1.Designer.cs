@@ -69,7 +69,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
             this.panel1.Controls.Add(this.lbl_Menù);
             this.panel1.Location = new System.Drawing.Point(669, 41);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(385, 380);
             this.panel1.TabIndex = 2;
@@ -81,7 +81,7 @@
             this.btn_Ordina.Font = new System.Drawing.Font("Segoe Script", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ordina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
             this.btn_Ordina.Location = new System.Drawing.Point(669, 419);
-            this.btn_Ordina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Ordina.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Ordina.Name = "btn_Ordina";
             this.btn_Ordina.Size = new System.Drawing.Size(385, 39);
             this.btn_Ordina.TabIndex = 3;
@@ -93,13 +93,14 @@
             // 
             this.lst_Orders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
             this.lst_Orders.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lst_Orders.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lst_Orders.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
             this.lst_Orders.FormattingEnabled = true;
-            this.lst_Orders.ItemHeight = 16;
+            this.lst_Orders.ItemHeight = 20;
             this.lst_Orders.Location = new System.Drawing.Point(-2, 42);
-            this.lst_Orders.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lst_Orders.Margin = new System.Windows.Forms.Padding(4);
             this.lst_Orders.Name = "lst_Orders";
-            this.lst_Orders.Size = new System.Drawing.Size(397, 416);
+            this.lst_Orders.Size = new System.Drawing.Size(397, 400);
             this.lst_Orders.TabIndex = 4;
             // 
             // btn_Total
@@ -109,7 +110,7 @@
             this.btn_Total.Font = new System.Drawing.Font("Segoe Script", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Total.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
             this.btn_Total.Location = new System.Drawing.Point(403, 41);
-            this.btn_Total.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Total.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Total.Name = "btn_Total";
             this.btn_Total.Size = new System.Drawing.Size(135, 39);
             this.btn_Total.TabIndex = 5;
@@ -173,7 +174,7 @@
             this.Controls.Add(this.btn_Total);
             this.Controls.Add(this.lst_Orders);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ristorante_da_Barin";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Ristorante_da_Barin_FormClosing);

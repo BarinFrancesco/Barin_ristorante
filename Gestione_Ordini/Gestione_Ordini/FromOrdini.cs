@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Gestione_Ordini
 {
@@ -16,6 +17,7 @@ namespace Gestione_Ordini
         {
             InitializeComponent();
             lista_piatti = menù;
+
         }
         string lista_piatti;
 
@@ -33,7 +35,9 @@ namespace Gestione_Ordini
 
                 string[] piatti = lista_piatti.Split('\n');
 
-                cmb_SelezionePiatti.Items.AddRange(piatti); 
+                cmb_SelezionePiatti.Items.AddRange(piatti);
+                cmb_SelezionePiatti.Items.RemoveAt(cmb_SelezionePiatti.Items.Count - 1); //toglie lelemento vuoto all'ultima posizione
+                cmb_SelezionePiatti.SelectedIndex = 0;
         }
 
 
@@ -47,10 +51,21 @@ namespace Gestione_Ordini
 
         private void btn_Order_Click(object sender, EventArgs e)
         {
+
             Coustomer_name = txt_Customer.Text.ToLower();
-            Coustomer_dish = cmb_SelezionePiatti.SelectedIndex;
-            Coustomer_quantity = (int)sel_Quantity.Value;
-            DialogResult = DialogResult.OK;
+            
+
+            if (Coustomer_name != "" ) 
+            {
+                Coustomer_dish = cmb_SelezionePiatti.SelectedIndex;
+                Coustomer_quantity = (int)sel_Quantity.Value;
+                DialogResult = DialogResult.OK;
+            } else
+            {
+                MessageBox.Show("inserire un nome o un piatto corretti");
+            }
+
+
         }
     }
 }
