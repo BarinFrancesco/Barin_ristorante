@@ -40,13 +40,14 @@
             // 
             // cmb_SelezionePiatti
             // 
-            this.cmb_SelezionePiatti.BackColor = System.Drawing.Color.Silver;
+            this.cmb_SelezionePiatti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(196)))), ((int)(((byte)(130)))));
             this.cmb_SelezionePiatti.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_SelezionePiatti.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
             this.cmb_SelezionePiatti.FormattingEnabled = true;
-            this.cmb_SelezionePiatti.Location = new System.Drawing.Point(145, 130);
+            this.cmb_SelezionePiatti.Location = new System.Drawing.Point(84, 130);
+            this.cmb_SelezionePiatti.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmb_SelezionePiatti.Name = "cmb_SelezionePiatti";
-            this.cmb_SelezionePiatti.Size = new System.Drawing.Size(227, 21);
+            this.cmb_SelezionePiatti.Size = new System.Drawing.Size(223, 24);
             this.cmb_SelezionePiatti.TabIndex = 0;
             // 
             // btn_Order
@@ -55,9 +56,10 @@
             this.btn_Order.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Order.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Order.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
-            this.btn_Order.Location = new System.Drawing.Point(177, 298);
+            this.btn_Order.Location = new System.Drawing.Point(113, 266);
+            this.btn_Order.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Order.Name = "btn_Order";
-            this.btn_Order.Size = new System.Drawing.Size(107, 41);
+            this.btn_Order.Size = new System.Drawing.Size(143, 50);
             this.btn_Order.TabIndex = 2;
             this.btn_Order.Text = "ORDINA";
             this.btn_Order.UseVisualStyleBackColor = false;
@@ -65,33 +67,37 @@
             // 
             // lbl_Dish
             // 
-            this.lbl_Dish.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Dish.Location = new System.Drawing.Point(142, 112);
+            this.lbl_Dish.Font = new System.Drawing.Font("Segoe Script", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Dish.Location = new System.Drawing.Point(80, 108);
+            this.lbl_Dish.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Dish.Name = "lbl_Dish";
-            this.lbl_Dish.Size = new System.Drawing.Size(263, 15);
+            this.lbl_Dish.Size = new System.Drawing.Size(227, 18);
             this.lbl_Dish.TabIndex = 3;
             this.lbl_Dish.Text = "Piatto:";
             // 
             // lbl_Customer
             // 
-            this.lbl_Customer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Customer.Location = new System.Drawing.Point(142, 46);
+            this.lbl_Customer.Font = new System.Drawing.Font("Segoe Script", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Customer.Location = new System.Drawing.Point(80, 27);
+            this.lbl_Customer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Customer.Name = "lbl_Customer";
-            this.lbl_Customer.Size = new System.Drawing.Size(263, 15);
+            this.lbl_Customer.Size = new System.Drawing.Size(227, 18);
             this.lbl_Customer.TabIndex = 5;
             this.lbl_Customer.Text = "Nome Cliente:";
             // 
             // txt_Customer
             // 
-            this.txt_Customer.Location = new System.Drawing.Point(145, 64);
+            this.txt_Customer.Location = new System.Drawing.Point(84, 49);
+            this.txt_Customer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Customer.Name = "txt_Customer";
-            this.txt_Customer.Size = new System.Drawing.Size(227, 20);
+            this.txt_Customer.Size = new System.Drawing.Size(223, 22);
             this.txt_Customer.TabIndex = 6;
             this.txt_Customer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Customer_KeyPress);
             // 
             // sel_Quantity
             // 
-            this.sel_Quantity.Location = new System.Drawing.Point(145, 190);
+            this.sel_Quantity.Location = new System.Drawing.Point(84, 204);
+            this.sel_Quantity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sel_Quantity.Maximum = new decimal(new int[] {
             30,
             0,
@@ -103,7 +109,7 @@
             0,
             0});
             this.sel_Quantity.Name = "sel_Quantity";
-            this.sel_Quantity.Size = new System.Drawing.Size(38, 20);
+            this.sel_Quantity.Size = new System.Drawing.Size(51, 22);
             this.sel_Quantity.TabIndex = 7;
             this.sel_Quantity.Value = new decimal(new int[] {
             1,
@@ -113,19 +119,20 @@
             // 
             // lbl_Quantity
             // 
-            this.lbl_Quantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Quantity.Location = new System.Drawing.Point(142, 172);
+            this.lbl_Quantity.Font = new System.Drawing.Font("Segoe Script", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Quantity.Location = new System.Drawing.Point(80, 182);
+            this.lbl_Quantity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Quantity.Name = "lbl_Quantity";
-            this.lbl_Quantity.Size = new System.Drawing.Size(263, 15);
+            this.lbl_Quantity.Size = new System.Drawing.Size(227, 18);
             this.lbl_Quantity.TabIndex = 8;
             this.lbl_Quantity.Text = "Quantità:";
             // 
             // FormOrdini
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(196)))), ((int)(((byte)(130)))));
-            this.ClientSize = new System.Drawing.Size(511, 450);
+            this.ClientSize = new System.Drawing.Size(376, 371);
             this.Controls.Add(this.lbl_Quantity);
             this.Controls.Add(this.sel_Quantity);
             this.Controls.Add(this.txt_Customer);
@@ -133,6 +140,7 @@
             this.Controls.Add(this.lbl_Dish);
             this.Controls.Add(this.btn_Order);
             this.Controls.Add(this.cmb_SelezionePiatti);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormOrdini";
             this.Text = "FromOrdini";
             this.Load += new System.EventHandler(this.FromOrdini_Load);

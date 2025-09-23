@@ -22,3 +22,14 @@ C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordin
 C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.exe.config
 C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.exe
 C:\Users\12999355\Desktop\frabar\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.pdb
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.exe.config
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.exe
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\bin\Debug\Gestione_Ordini.pdb
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.AssemblyReference.cache
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.Ristorante_da_Barin.resources
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.FormOrdini.resources
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.Properties.Resources.resources
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.GenerateResource.cache
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.csproj.CoreCompileInputs.cache
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.exe
+G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\Barin_ristorante\Gestione_Ordini\Gestione_Ordini\obj\Debug\Gestione_Ordini.pdb

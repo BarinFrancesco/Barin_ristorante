@@ -22,14 +22,21 @@ namespace Gestione_Ordini
         {
             Comanda.Add(piatto_aggiunto);
         }
-        public float totale ()
+
+        public (float costo, string ordini) Scontrino ()
         {
             float Tot = 0;
+            string dishes = "";
             foreach (var item in Comanda)
             {
                 Tot += item.Price;
+                dishes += $"{item.Name} {item.Price}€\n";
             }
-            return Tot;
+
+            //applico lo sconto nel caso il conto fosse superiore o uguale a 100 €
+            Tot = Tot>= 100 ?  Tot - Tot * 0.05f : Tot;
+            return (Tot,dishes);
         }
+
     }
 }
