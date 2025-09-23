@@ -32,6 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_Ordina = new System.Windows.Forms.Button();
+            this.lst_Orders = new System.Windows.Forms.ListBox();
+            this.btn_Total = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,7 +41,7 @@
             // 
             this.lbl_Menù.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Menù.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
-            this.lbl_Menù.Location = new System.Drawing.Point(3, 53);
+            this.lbl_Menù.Location = new System.Drawing.Point(3, 63);
             this.lbl_Menù.Name = "lbl_Menù";
             this.lbl_Menù.Size = new System.Drawing.Size(283, 254);
             this.lbl_Menù.TabIndex = 0;
@@ -61,26 +63,46 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(166)))), ((int)(((byte)(100)))));
             this.panel1.Controls.Add(this.lbl_Menù);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(491, 52);
+            this.panel1.Location = new System.Drawing.Point(499, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(289, 317);
             this.panel1.TabIndex = 2;
             // 
             // btn_Ordina
             // 
-            this.btn_Ordina.Location = new System.Drawing.Point(287, 142);
+            this.btn_Ordina.Location = new System.Drawing.Point(605, 323);
             this.btn_Ordina.Name = "btn_Ordina";
-            this.btn_Ordina.Size = new System.Drawing.Size(94, 88);
+            this.btn_Ordina.Size = new System.Drawing.Size(94, 32);
             this.btn_Ordina.TabIndex = 3;
-            this.btn_Ordina.Text = "button1";
+            this.btn_Ordina.Text = "Ordina";
             this.btn_Ordina.UseVisualStyleBackColor = true;
             this.btn_Ordina.Click += new System.EventHandler(this.btn_Ordina_Click);
+            // 
+            // lst_Orders
+            // 
+            this.lst_Orders.FormattingEnabled = true;
+            this.lst_Orders.Location = new System.Drawing.Point(-3, 13);
+            this.lst_Orders.Name = "lst_Orders";
+            this.lst_Orders.Size = new System.Drawing.Size(299, 342);
+            this.lst_Orders.TabIndex = 4;
+            // 
+            // btn_Total
+            // 
+            this.btn_Total.Location = new System.Drawing.Point(302, 13);
+            this.btn_Total.Name = "btn_Total";
+            this.btn_Total.Size = new System.Drawing.Size(94, 32);
+            this.btn_Total.TabIndex = 5;
+            this.btn_Total.Text = "Conto";
+            this.btn_Total.UseVisualStyleBackColor = true;
+            this.btn_Total.Click += new System.EventHandler(this.btn_Total_Click);
             // 
             // Ristorante_da_Barin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Total);
+            this.Controls.Add(this.lst_Orders);
             this.Controls.Add(this.btn_Ordina);
             this.Controls.Add(this.panel1);
             this.Name = "Ristorante_da_Barin";
@@ -97,6 +119,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_Ordina;
+        private System.Windows.Forms.ListBox lst_Orders;
+        private System.Windows.Forms.Button btn_Total;
     }
 }
 

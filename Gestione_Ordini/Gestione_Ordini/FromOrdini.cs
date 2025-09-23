@@ -25,6 +25,7 @@ namespace Gestione_Ordini
 
         public int Coustomer_quantity { get; private set; }
 
+
         private void FromOrdini_Load(object sender, EventArgs e)
         {
               // Pulisce prima la combo se necessario
@@ -34,6 +35,7 @@ namespace Gestione_Ordini
 
                 cmb_SelezionePiatti.Items.AddRange(piatti); 
         }
+
 
         private void txt_Customer_KeyPress(object sender, KeyPressEventArgs e)
         {
