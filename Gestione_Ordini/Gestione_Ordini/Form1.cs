@@ -29,7 +29,7 @@ namespace Gestione_Ordini
 
         private void Ristorante_da_Barin_Load(object sender, EventArgs e)
         {
-            lbl_Menù.Text += "\n\n" + menù.VisualizzaMenù();
+            lbl_Menù.Text = menù.VisualizzaMenù();
             caricamento_vecchi_ordini();
             Visualizza_ordini(false);
         }
@@ -190,6 +190,16 @@ namespace Gestione_Ordini
         private void btn_newOrder_Click(object sender, EventArgs e)
         {
             Visualizza_ordini(true);
+        }
+
+        private void lbl_typeoforder_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lst_Orders_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
