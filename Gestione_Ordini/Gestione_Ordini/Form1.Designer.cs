@@ -47,9 +47,9 @@
             // 
             this.lbl_Menù.Font = new System.Drawing.Font("Segoe Script", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Menù.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
-            this.lbl_Menù.Location = new System.Drawing.Point(47, 81);
+            this.lbl_Menù.Location = new System.Drawing.Point(47, 103);
             this.lbl_Menù.Name = "lbl_Menù";
-            this.lbl_Menù.Size = new System.Drawing.Size(289, 238);
+            this.lbl_Menù.Size = new System.Drawing.Size(289, 216);
             this.lbl_Menù.TabIndex = 0;
             this.lbl_Menù.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -57,20 +57,22 @@
             // 
             this.label1.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
-            this.label1.Location = new System.Drawing.Point(51, 50);
+            this.label1.Location = new System.Drawing.Point(51, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(285, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Menù";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_Ordina
             // 
             this.btn_Ordina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(196)))), ((int)(((byte)(130)))));
+            this.btn_Ordina.FlatAppearance.BorderSize = 0;
             this.btn_Ordina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Ordina.Font = new System.Drawing.Font("Segoe Script", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ordina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
-            this.btn_Ordina.Location = new System.Drawing.Point(51, 322);
+            this.btn_Ordina.Location = new System.Drawing.Point(47, 322);
             this.btn_Ordina.Name = "btn_Ordina";
             this.btn_Ordina.Size = new System.Drawing.Size(289, 32);
             this.btn_Ordina.TabIndex = 3;
@@ -86,7 +88,7 @@
             this.lst_Orders.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
             this.lst_Orders.FormattingEnabled = true;
             this.lst_Orders.ItemHeight = 17;
-            this.lst_Orders.Location = new System.Drawing.Point(155, 54);
+            this.lst_Orders.Location = new System.Drawing.Point(155, 44);
             this.lst_Orders.Name = "lst_Orders";
             this.lst_Orders.Size = new System.Drawing.Size(238, 272);
             this.lst_Orders.TabIndex = 4;
@@ -138,7 +140,7 @@
             // 
             this.lbl_typeoforder.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_typeoforder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(66)))), ((int)(((byte)(33)))));
-            this.lbl_typeoforder.Location = new System.Drawing.Point(155, 0);
+            this.lbl_typeoforder.Location = new System.Drawing.Point(155, 6);
             this.lbl_typeoforder.Name = "lbl_typeoforder";
             this.lbl_typeoforder.Size = new System.Drawing.Size(238, 30);
             this.lbl_typeoforder.TabIndex = 2;
